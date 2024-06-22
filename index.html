@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>To Do List</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todolist">
+        <h2>
+          TO DO LIST
+          <img
+            class="todoicon"
+            src="./images/pngwing.com.png"
+            alt="to do list icon"
+          />
+        </h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add the Task" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li>-->
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
